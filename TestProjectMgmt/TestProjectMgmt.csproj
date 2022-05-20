@@ -10,4 +10,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ProjectMgmt\ProjectMgmt.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Microsoft.EntityFrameworkCore.Design" />
+  </ItemGroup>
 </Project>
