@@ -14,7 +14,6 @@ namespace ProjectMgmt.Models {
         [StringLength(15)]
         public string Status { get; set; } = string.Empty;
 
-        public IEnumerable<Work>? Works { get; set; } = null;
 
     }
 }
